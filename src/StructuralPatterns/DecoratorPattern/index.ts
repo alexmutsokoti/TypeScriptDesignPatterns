@@ -7,7 +7,7 @@ import { WithSprinkles } from "./WithSprinkels";
 
 export abstract class CoffeeDecoratorPattern {
 
-    run(){
+    run() : void {
         let c = new SimpleCoffee();
         this.printInfo(c);
         
@@ -18,7 +18,7 @@ export abstract class CoffeeDecoratorPattern {
         this.printInfo(c);
     }
 
-    printInfo(c : Coffee) {
+    printInfo(c : Coffee) : void {
         console.log("Cost: " + c.getCost() + "; Ingredients: " + c.getIngredients());
     }
 }

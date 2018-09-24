@@ -1,5 +1,5 @@
-const  CoffeeDecoratorPattern  = require('./dist/StructuralPatterns/DecoratorPattern/index.js');
-const  BillingStrategyPattern  = require('./dist/BehavioralPatterns/StrategyPattern/index.js');
+const  CoffeeDecoratorPattern  = require('./dist/StructuralPatterns/DecoratorPattern/index');
+const  BillingStrategyPattern  = require('./dist/BehavioralPatterns/StrategyPattern/index');
 
 // Get dependencies
 const express = require('express');
@@ -38,5 +38,7 @@ const server = http.createServer(app);
  */
 server.listen(port, () => console.log(`running on localhost:${port}`));
 
+console.log("Decorator Pattern:");
 CoffeeDecoratorPattern.CoffeeDecoratorPattern.prototype.run();
+console.log("Strategy Pattern:");
 BillingStrategyPattern.BillingStrategyPattern.prototype.run();

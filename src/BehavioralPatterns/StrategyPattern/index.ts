@@ -5,11 +5,11 @@ import { BillingStrategy } from "./BillingStrategy";
 import { NormalStrategy } from "./NormalStrategy";
 import { HappyHourStrategy } from "./HappyHourStrategy";
 
-export abstract class BillingStrattegyPattern {
+export abstract class BillingStrategyPattern {
     normalStrategy : BillingStrategy;
     happyHourStrategy : BillingStrategy;
     
-    run(){
+    run() : void {
         // Prepare strategies
         this.normalStrategy = new NormalStrategy();
         this.happyHourStrategy = new HappyHourStrategy();

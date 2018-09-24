@@ -1,3 +1,5 @@
+// Based on code from https://en.wikipedia.org/wiki/Decorator_pattern
+
 import { Coffee } from "./Coffee";
 import { SimpleCoffee } from "./SimpleCoffee";
 import { WithMilk } from "./WithMilk";

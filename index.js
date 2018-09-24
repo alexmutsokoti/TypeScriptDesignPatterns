@@ -1,5 +1,5 @@
 const  CoffeeDecoratorPattern  = require('./dist/StructuralPatterns/DecoratorPattern/index.js');
-//import { CoffeeDecoratorPattern } from 'dist/StructuralPatterns/DecoratorPattern/index';
+const  BillingStrategyPattern  = require('./dist/BehavioralPatterns/StrategyPattern/index.js');
 
 // Get dependencies
 const express = require('express');
@@ -36,6 +36,7 @@ const server = http.createServer(app);
 /**
  * Listen on provided port, on all network interfaces.
  */
-server.listen(port, () => console.log(`API running on localhost:${port}`));
+server.listen(port, () => console.log(`running on localhost:${port}`));
 
-CoffeeDecoratorPattern.CoffeeDecoratorPattern.prototype.run()
+CoffeeDecoratorPattern.CoffeeDecoratorPattern.prototype.run();
+BillingStrategyPattern.BillingStrategyPattern.prototype.run();

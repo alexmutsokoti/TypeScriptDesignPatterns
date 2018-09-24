@@ -1,5 +1,6 @@
 const  CoffeeDecoratorPattern  = require('./dist/StructuralPatterns/DecoratorPattern/index');
 const  BillingStrategyPattern  = require('./dist/BehavioralPatterns/StrategyPattern/index');
+const  StatePattern  = require('./dist/BehavioralPatterns/StatePattern/index');
 
 // Get dependencies
 const express = require('express');
@@ -42,3 +43,5 @@ console.log("Decorator Pattern:");
 CoffeeDecoratorPattern.CoffeeDecoratorPattern.prototype.run();
 console.log("Strategy Pattern:");
 BillingStrategyPattern.BillingStrategyPattern.prototype.run();
+console.log("State Pattern:");
+StatePattern.StatePattern.prototype.run();

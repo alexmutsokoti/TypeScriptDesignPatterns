@@ -1,0 +1,23 @@
+{
+  "name": "typescriptdesignpatterns",
+  "version": "0.1.0",
+  "description": "Just a repo with TypeScript Design Patterns",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexmutsokoti/TypeScriptDesignPatterns.git"
+  },
+  "keywords": [
+    "TypeScript"
+  ],
+  "author": "Alex Mutsokoti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexmutsokoti/TypeScriptDesignPatterns/issues"
+  },
+  "homepage": "https://github.com/alexmutsokoti/TypeScriptDesignPatterns#readme"
+}
